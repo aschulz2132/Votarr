@@ -22,7 +22,7 @@ document.addEventListener('readystatechange', event => {
         let elements = document.getElementsByTagName("article")
         console.log(elements.length);
         const newNode = document.createElement("div");
-        newNode.innerHTML="<p> >:(</p>"
+        newNode.innerHTML="<button> </button>"
         const first = elements[0];
         const parentDiv = first.parentNode
         parentDiv.insertBefore(newNode,first)
@@ -36,6 +36,5 @@ document.addEventListener('readystatechange', event => {
 
         }
 
-        alert("hi 2");
         }
 });

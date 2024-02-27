@@ -12,7 +12,8 @@
     "content_scripts": [
       {
         "matches": ["*://*.duckduckgo.com/*"],
-        "js": ["votarr.js"]  
+        "js": ["votarr.js"],
+        "css": ["votarr.css"]
       }
     ]
   }
