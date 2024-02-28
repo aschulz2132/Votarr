@@ -2,3 +2,33 @@
     display: flex;
     flex-direction: row;
 }
+.upvote {
+    background-image: url(downvote.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-color: transparent;
+    /* put the height and width of your image here */
+    height: 16px;
+    width: 16px;
+    border: none;
+  }
+  .downvote {
+    background-image: url(upvote.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-color: transparent;
+    /* put the height and width of your image here */
+    height: 16px;
+    width: 16px;
+    border: none;
+  }
+  .div1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+  .p1 {
+    margin: 2px;
+    
+  }

@@ -21,15 +21,8 @@ document.addEventListener('readystatechange', event => {
         console.log("hi 2");
         let elements = document.getElementsByTagName("article")
         console.log(elements.length);
-        const newNode = document.createElement("div");
-        newNode.innerHTML="<button> </button>"
         const first = elements[0];
-        const parentDiv = first.parentNode
-        parentDiv.insertBefore(newNode,first)
-        console.log("first: "+first)
-        console.log("parent: "+parentDiv)
-        console.log("appended: "+newNode)
-
+       
         for(let i = 0; i < elements.length; i++) {
             console.log(i + ": " + elements[i].id);
             
