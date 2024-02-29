@@ -12,9 +12,13 @@
     "content_scripts": [
       {
         "matches": ["*://*.duckduckgo.com/*"],
-        "js": ["votarr.js"],
+        "js": ["votarr.js","psl.min.js"],
         "css": ["votarr.css"]
       }
-    ]
+    ],
+    "permissions": [
+      "https://ed35d561-c200-49d2-98a4-7f6388b11eb9-00-29ltzhq0df92x.spock.replit.dev/*"
+  ]
+
   }
   

@@ -3,16 +3,8 @@
     flex-direction: row;
 }
 .upvote {
-    background-image: url(downvote.png);
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-    background-color: transparent;
-    /* put the height and width of your image here */
-    height: 16px;
-    width: 16px;
-    border: none;
-  }
-  .downvote {
+    margin-top: 25%;
+    margin-left: 25%;
     background-image: url(upvote.png);
     background-repeat: no-repeat;
     background-position: 50% 50%;
@@ -21,14 +13,38 @@
     height: 16px;
     width: 16px;
     border: none;
+    cursor: pointer;
+  }
+  .downvote {
+    margin-left: 25%;
+    background-image: url(downvote.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-color: transparent;
+    /* put the height and width of your image here */
+    height: 16px;
+    width: 16px;
+    border: none;
+    cursor: pointer;
   }
   .div1 {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: center;
+    align-items: center;
+  }
+  .div2{
+ 
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: fit-content+1px;
+    aspect-ratio: 1/1;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .p1 {
-    margin: 2px;
-    
+    color:rgb(187, 187, 187)
   }
